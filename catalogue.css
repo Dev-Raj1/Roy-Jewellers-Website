@@ -1,0 +1,37 @@
+
+
+img{
+    border-radius: 1rem;  
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+} 
+
+.ornaments{
+    min-height: 100vh;
+    background-image: linear-gradient(
+        315deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(344deg 0% 88%) 21%,
+        hsl(344deg 0% 75%) 30%,
+        hsl(344deg 0% 64%) 39%,
+        hsl(344deg 0% 52%) 46%,
+        hsl(344deg 0% 41%) 54%,
+        hsl(344deg 0% 31%) 61%,
+        hsl(344deg 0% 21%) 69%,
+        hsl(344deg 0% 12%) 79%,
+        hsl(0deg 0% 0%) 100%
+      );
+    
+}
+
+.full-screen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.978);
+    z-index: 9999;
+}
+
+

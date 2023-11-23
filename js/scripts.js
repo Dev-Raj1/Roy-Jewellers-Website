@@ -52,3 +52,18 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+function toggleBig(img) {
+    img.classList.toggle("full-screen-image");
+}
+
+// Get the HTMLCollection of elements with the class 'img-fluid'
+const images = document.getElementsByClassName("img-fluid");
+
+// Use for...of loop to iterate over the HTMLCollection
+for (const image of images) {
+    image.addEventListener("click", function () {
+        toggleBig(image);
+    });
+}
