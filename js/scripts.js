@@ -59,7 +59,7 @@ function toggleBig(img) {
 }
 
 // Get the HTMLCollection of elements with the class 'img-fluid'
-const images = document.getElementsByClassName("img-fluid");
+const images = document.getElementsByClassName("imgx");
 
 // Use for...of loop to iterate over the HTMLCollection
 for (const image of images) {

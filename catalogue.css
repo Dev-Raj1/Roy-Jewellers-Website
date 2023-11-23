@@ -1,6 +1,6 @@
 
 
-img{
+imgx{
     border-radius: 1rem;  
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 } 
@@ -33,5 +33,13 @@ img{
     background-color: rgba(0, 0, 0, 0.978);
     z-index: 9999;
 }
+.catalogue{
+    text-decoration: none;
+}
+
+.imgs{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
 
 
